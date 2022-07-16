@@ -3,9 +3,11 @@ package com.prodapt.OOPbasics;
 public class SiTester {
 	public static void main(String[] args) {
 		
-		SI si = new SI();
-		
-		si.simpleInterest(2000, 10, 1);
+
+		SI.principle = 2000;
+		SI.rate = 10;
+		SI.time = 1;
+		SI.simpleInterest();
 		
 	}
 	
